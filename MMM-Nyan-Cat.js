@@ -17,17 +17,11 @@ Module.register("MMM-Nyan-Cat",{
 		imageSize: 600,
 	},
 	
-	start funtion () {
-	self = this;
-	this.url = this.config.gif;
-	
-	},
-	
 	// Override dom generator.
 	getDom: function() {
 		var wrapper = document.createElement("div");
 		var image = document.createElement("img");
-		image.src = this.url;
+		image.src = this.config.gif;
 		
 		
 		image.width = this.config.imageSize.toString();
