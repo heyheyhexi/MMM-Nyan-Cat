@@ -12,8 +12,8 @@ Module.register("MMM-Nyan-Cat",{
 	// Default module config.
 	defaults: {
      	
-	//	gif: 'http://forum.videogameszone.de/attachments/4200d1421366280-machs-gut-gameone-willkommen-rocketbeans-tv-photo.jpg',
-		gif: 'https://img.clipartfest.com/9ee297869fc328d119a428b213ce95ef_data-visualization-virtual-clipart-gif-nyan-cat_1750-800.gif',
+		gif: 'http://forum.videogameszone.de/attachments/4200d1421366280-machs-gut-gameone-willkommen-rocketbeans-tv-photo.jpg',
+	//	gif: 'https://img.clipartfest.com/9ee297869fc328d119a428b213ce95ef_data-visualization-virtual-clipart-gif-nyan-cat_1750-800.gif',
 		imageSize: 600,
 	},
 	// Override dom generator.
