@@ -7,7 +7,7 @@
  * MIT Licensed.
  */
 
-Module.register("Nyan_Cat",{
+Module.register("MMM-Nyan-Cat",{
 
 	// Default module config.
 	defaults: {
