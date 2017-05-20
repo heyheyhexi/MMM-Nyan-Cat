@@ -17,6 +17,11 @@ Module.register("MMM-Nyan-Cat",{
 		imageSize: 600,
 	},
 	
+	getStyles: function () {
+		return ["MMM-Nyan-Cat.css"]
+	},
+	
+	
 	// Override dom generator.
 	getDom: function() {
 		var wrapper = document.createElement("div");
@@ -27,7 +32,7 @@ Module.register("MMM-Nyan-Cat",{
 		
 		var image = document.createElement("img");
 		image.src = this.config.gif;
-		
+		image.className = 'MMM-Globe-image';
 		
 		image.width = this.config.imageSize.toString();
 		image.height = this.config.imageSize.toString();
