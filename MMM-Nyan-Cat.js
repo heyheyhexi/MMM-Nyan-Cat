@@ -20,6 +20,11 @@ Module.register("MMM-Nyan-Cat",{
 	// Override dom generator.
 	getDom: function() {
 		var wrapper = document.createElement("div");
+		
+			wrapper.style.height = 0.98 * this.config.imageSize - 1 + "px";
+			wrapper.style.overflow = "hidden";
+		
+		
 		var image = document.createElement("img");
 		image.src = this.config.gif;
 		
