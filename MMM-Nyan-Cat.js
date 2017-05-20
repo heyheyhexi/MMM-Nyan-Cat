@@ -20,7 +20,7 @@ Module.register("MMM-Nyan-Cat",{
 		start: function () {
 		self = this;
 		this.url = '';
-		console.log(this.imageUrls[this.config.style]);
+//		console.log(this.imageUrls[this.config.style]);
 		if (this.config.gif != '') {
 			this.url = this.config.gif;
 		}  
