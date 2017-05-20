@@ -1,9 +1,9 @@
 /* global Module */
 
 /* Magic Mirror
- * Module: Nyan_Cat
+ * Module: MMM-Nyan-Cat
  *
- * By Michael Teeuw http://michaelteeuw.nl
+ * By HeyHeyHexi https://github.com/heyheyhexi
  * MIT Licensed.
  */
 
