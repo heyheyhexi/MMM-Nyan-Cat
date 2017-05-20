@@ -18,15 +18,11 @@ Module.register("MMM-Nyan-Cat",{
 	},
 	
 	
-//	getStyles: function () {
-//		return ["MMM-Nyan-Cat.css"]
-//	},
-	
 	// Override dom generator.
 	getDom: function() {
-//		var wrapper = document.createElement("div");
-//			wrapper.style.height = 0.98 * this.config.imageSize - 1 + "px";
-//			wrapper.style.overflow = "hidden";
+		var wrapper = document.createElement("div");
+			wrapper.style.height = 0.98 * this.config.imageSize - 1 + "px";
+			wrapper.style.overflow = "hidden";
 		
 		
 		var image = document.createElement("img");
@@ -35,8 +31,7 @@ Module.register("MMM-Nyan-Cat",{
 		image.width = this.config.imageSize.toString();
 		image.height = this.config.imageSize.toString();
 
-		image.appendChild(image);
-//		wrapper.appendChild(image);
-//		return wrapper;
+		wrapper.appendChild(image);
+		return wrapper;
 	},
 });
