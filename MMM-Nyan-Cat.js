@@ -18,25 +18,25 @@ Module.register("MMM-Nyan-Cat",{
 	},
 	
 	
-	getStyles: function () {
-		return ["MMM-Nyan-Cat.css"]
-	},
+//	getStyles: function () {
+//		return ["MMM-Nyan-Cat.css"]
+//	},
 	
 	// Override dom generator.
 	getDom: function() {
-		var wrapper = document.createElement("div");
-			wrapper.style.height = 0.98 * this.config.imageSize - 1 + "px";
-			wrapper.style.overflow = "hidden";
+//		var wrapper = document.createElement("div");
+//			wrapper.style.height = 0.98 * this.config.imageSize - 1 + "px";
+//			wrapper.style.overflow = "hidden";
 		
 		
 		var image = document.createElement("img");
 		image.src = this.config.gif;
-//		image.className = 'MMM-Globe-image';
 		
 		image.width = this.config.imageSize.toString();
 		image.height = this.config.imageSize.toString();
 
-		wrapper.appendChild(image);
-		return wrapper;
+		image.appendChild(image);
+//		wrapper.appendChild(image);
+//		return wrapper;
 	},
 });
