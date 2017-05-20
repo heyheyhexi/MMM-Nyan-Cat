@@ -46,5 +46,5 @@ Module.register("MMM-Nyan-Cat",{
 
 		wrapper.appendChild(image);
 		return wrapper;
-	};
+	},
 });
