@@ -17,14 +17,6 @@ Module.register("MMM-Nyan-Cat",{
 		imageSize: 600,
 	},
 	
-//		start: function () {
-//		self = this;
-//		this.url = '';
-//		console.log(this.imageUrls[this.config.style]);
-//		if (this.config.gif != '') {
-//			this.url = this.config.gif;
-//		}  
-//	},
 	
 	getStyles: function () {
 		return ["MMM-Nyan-Cat.css"]
@@ -39,8 +31,7 @@ Module.register("MMM-Nyan-Cat",{
 		
 		var image = document.createElement("img");
 		image.src = this.config.gif;
-//		image.src = this.url;
-		image.className = 'MMM-Globe-image';
+//		image.className = 'MMM-Globe-image';
 		
 		image.width = this.config.imageSize.toString();
 		image.height = this.config.imageSize.toString();
