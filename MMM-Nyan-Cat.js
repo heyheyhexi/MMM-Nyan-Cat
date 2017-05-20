@@ -16,6 +16,7 @@ Module.register("MMM-Nyan-Cat",{
 	},
 	// Override dom generator.
 	getDom: function() {
+		var wrapper = document.createElement("div");
 		var image = document.createElement("img");
 		image.src = this.config.gif;
 		
@@ -23,6 +24,7 @@ Module.register("MMM-Nyan-Cat",{
 		image.width = this.config.imageSize.toString();
 		image.height = this.config.imageSize.toString();
 
-		image.appendChild(image);
-	}
-);
+		wrapper.appendChild(image);
+		return wrapper;
+	};
+});
