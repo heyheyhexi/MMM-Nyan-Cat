@@ -16,11 +16,18 @@ Module.register("MMM-Nyan-Cat",{
 	//	gif: 'https://img.clipartfest.com/9ee297869fc328d119a428b213ce95ef_data-visualization-virtual-clipart-gif-nyan-cat_1750-800.gif',
 		imageSize: 600,
 	},
+	
+	start funtion () {
+	self = this;
+	this.url = this.config.gif;
+	
+	},
+	
 	// Override dom generator.
 	getDom: function() {
 		var wrapper = document.createElement("div");
 		var image = document.createElement("img");
-		image.src = this.config.gif;
+		image.src = this.url;
 		
 		
 		image.width = this.config.imageSize.toString();
