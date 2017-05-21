@@ -1,0 +1,16 @@
+{
+  "name": "mmm-nyan-cat",
+  "version": "1.0.0",
+  "description": "",
+,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyheyhexi/MMM-Nyan-Cat.git"
+  },
+  "author": "HeyHeyHexi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heyheyhexi/MMM-Nyan-Cat/issues"
+  },
+  "homepage": "https://github.com/heyheyhexi/MMM-Nyan-Cat#readme"
+}
