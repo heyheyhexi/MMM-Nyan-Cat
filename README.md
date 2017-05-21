@@ -2,10 +2,6 @@ MMM-Nyan-Cat
 ===================
 This a module for the [MagicMirror](https://github.com/MichMich/MagicMirror). It can display GIF´s on your Mirror, for example Nyan Cat. 
 
-## Preview
-
-placeholder
-
 ## Installation
 1. Navigate into your MagicMirror's `modules` folder and execute `git clone https://github.com/heyheyhexi/MMM-Nyan-Cat.git`. 
 2. Configure youre `config.js`.
